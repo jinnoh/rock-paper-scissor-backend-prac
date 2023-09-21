@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    gap: 25px;
+    background-color:aquamarine;
+    justify-content: center;
+    align-items: center;
+}
+
+#header{
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #b95a5a;
+    padding: 20 px;
+}
+
+.option{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+button{
+    border-radius: 10px;
+    border: 10px;
+    background: #45628d;
+    color: #ffffff;
+    min-width: 100px;
+    height: auto;
+}
